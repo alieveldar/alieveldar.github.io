@@ -1,0 +1,10 @@
+title : NUMBERLOCKER
+description: Privator Club
+
+markdown: kramdown
+highlighter: rouge
+logo: true
+paginate: 8
+baseurl: /
+plugins: [jekyll-gist]
+permalink: /:year/:month/:title.html

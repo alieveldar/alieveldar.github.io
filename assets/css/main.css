@@ -1,0 +1,216 @@
+/*
+    Import League Gothic <3
+*/
+@font-face {
+    font-family: 'League Gothic';
+    src: url('leaguegothic-regular-webfont.eot');
+    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('leaguegothic-regular-webfont.woff') format('woff'),
+    url('leaguegothic-regular-webfont.ttf') format('truetype'),
+    url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.numb {
+    text-align: center;
+}
+
+.abtme {
+    font-family: 'League Gothic';
+    text-align: left;
+    font-size: 20px;
+}
+
+.buttond2 {
+    text-align:right; 
+    display: block;    
+    margin: 5% 2% 5% 2%;
+}
+
+.buttond2 a {
+    margin: 5% 2% 5% 2%;
+}
+
+.buttond {
+    text-align:center;
+}
+
+.buttond a {
+    cursor: pointer; 
+    font-size:25px;  
+    text-decoration: none; 
+    padding:2px 11px; 
+    color:#000000; 
+    background-color:#ffffff; 
+    border-radius:8px; 
+    border: 2px solid #000000;
+}
+
+.price {
+    border: 5px solid grey;
+    border-radius: 30px;
+    margin: 1% 30% 10% 30%;
+}
+
+.price p {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.aboutcard {
+    margin: 0 0 50px 0;
+}
+
+.aboutcard p {
+    font-size: 18px;
+
+}
+
+
+.buttond2 a {
+    cursor: pointer; 
+    font-size:25%;  
+    text-decoration: none; 
+    padding:2px 11px; 
+    color:#000000; 
+    background-color:#ffffff; 
+    border-radius:8px; 
+    border: 2px solid #000000;
+    margin: 12% 10% 10% 10%;
+}
+
+#front {
+    text-align: center;
+    font-family: 'League Gothic';    
+    margin: 20px 20px 20px 20px;
+}
+
+img, video, iframe {
+    max-width: 70%;
+}
+
+/* header */
+
+.header-wrapper {
+    max-height: 100%;
+    background-color: black;
+}
+
+header {
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: url(/assets/img/bg.jpg);
+    background-size: cover;
+    color: rgba(255, 255, 255, .75);
+}
+
+.site-logo {
+    max-width: 12%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.site-description {
+    font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+}
+
+
+/* /header */
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: 1rem;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+/* footer */
+
+footer {
+    color: rgba(255, 255, 255, .75) !important;    
+    background-color: black;
+    height: 6rem;
+    padding-top: 1rem;
+}
+
+.footer-wrapper { 
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.ui.transparent.icon.input {
+    color: rgba(255, 255, 255, .75) !important;
+}
+
+.ui.transparent.icon.input input:focus {
+    color: rgba(255, 255, 255, .75) !important;
+}
+
+/* /footer */
+
+/* main */
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.ui.card {
+    width: auto !important;
+}
+
+.ui.card image  {
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.image {
+    display: block;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 0 auto;
+       
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.small-date {
+    color: rgba(0,0,0,.75);
+    font-weight: lighter;   
+}
+
+.description {
+    word-wrap: break-word;
+}
+/* /main */
+
+/* post */
+
+.post-container {
+    font-family: "Open Sans", sans-serif;
+
+}

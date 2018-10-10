@@ -1,0 +1,38 @@
+<div class="ui card">
+
+     {% assign foundImage = 0 %}
+    {% assign images = post.content | split:"<img" %}
+    {% for image in images %}
+        {% if image contains 'src' %}
+            {% if foundImage == 0 %}
+                {% assign html = image | split:">" | first %}
+                <div class="image">
+                   <a href="{{ BASE_PATH }}{{ post.url }}"><img {{ html }} /> </a>
+                </div> 
+                {% assign foundImage = 1 %}
+                {% break %}
+            {% endif %}
+        {% endif %}
+    {% endfor %} 
+
+    <div class="content" style="text-align: center;">
+        <a class="header" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 15 }}</a>
+        <div class="meta">
+            <span class="date"> 
+          
+            </span>
+        </div>
+        
+    </div>
+    <div style="text-align: center; margin: 0 0 10px 0; font-size: 16px; "><strong>{% if post.discount %}
+                <s style="color: red;">Цена {{post.price}}</s>
+                <b style="color: red; margin: 0 0 0 10px;">Скидка: {{post.discount}}</b>
+                {%else%}
+                Цена: {{post.price}}
+            {% endif %}</strong></div>
+    <div class="extra content">
+      
+        <p class="buttond2"  style="text-align:center;"><a href="{{ post.url }}" target="_self" style="cursor: pointer; font-size:25px;  text-decoration: none; padding:2px 11px; color:#000000; background-color:#ffffff; border-radius:8px; border: 2px solid #000000;">ЗАКАЗАТЬ</a></p>
+      
+    </div>
+</div>
