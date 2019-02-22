@@ -22,6 +22,7 @@ $(document).ready(function() {
             if (width >= 100) {
                 clearInterval(id);
             } else {
+                console.log(width + 1);
                 width++;
                 bar.css('width', width);
             }
