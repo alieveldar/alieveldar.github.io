@@ -23,7 +23,7 @@ $(document).ready(function() {
                 clearInterval(id);
             } else {
                 width++;
-                bar.css('width', width + 1);
+                bar.css('width', width);
             }
 
         });
