@@ -1,5 +1,4 @@
-function() {
-    $(document).ready(function() {
+$(document).ready(function() {
         var discount = $("#discountval");
         var price = $("#price");
         var summ = $("#summ");
@@ -32,4 +31,3 @@ function() {
         });
 
     });
-}
