@@ -25,7 +25,7 @@ $(document).ready(function() {
                 clearInterval(id);
             } else {
                 width++;
-                elem.style.width = width + '%';
+                bar.css('width', width + '%');
             }
 
         });
