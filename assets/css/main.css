@@ -217,3 +217,13 @@ main {
 .abtme {
     margin-top: 10px;
 }
+#orderProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#orderBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
