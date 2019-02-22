@@ -14,7 +14,7 @@ $(document).ready(function() {
         }
 
         var buttond = $(".buttond");
-        buttond.on("click", function {
+        buttond.on("click", function() {
             alert("OK");
             var bar = $("#orderBar");
             var width = 1;
