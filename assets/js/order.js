@@ -19,13 +19,11 @@ $(document).ready(function() {
             var bar = $("#orderBar");
             var width = 1;
             var id = setInterval(frame, 10);
-
-
             if (width >= 100) {
                 clearInterval(id);
             } else {
                 width++;
-                bar.css('width', width + '%');
+                bar.css('width', width + 1);
             }
 
         });
