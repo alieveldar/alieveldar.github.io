@@ -17,11 +17,13 @@ $(document).ready(function() {
     buttond.on("click", function() {
         alert("OK");
         var bar = $("#orderBar");
+        var progress = $("#orderProgress");
+        progress.show();
         var width = 1;
         var id = setInterval(frame, 100);
 
         function frame() {
-            if (width >= 100) {
+            if (width >= 10) {
                 clearInterval(id);
             } else {
                 width++;
