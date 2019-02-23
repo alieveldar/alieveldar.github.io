@@ -14,8 +14,7 @@ $(document).ready(function() {
     }
 
     var buttond = $(".buttond");
-    buttond.on("click", function() {
-        alert("OK");
+    buttond.on("click", function() {        
         var bar = $("#orderBar");
         var progress = $("#orderProgress");
         progress.show();
@@ -28,6 +27,7 @@ $(document).ready(function() {
             } else {
                 width+=10;
                 bar.css('width', width);
+                console.log(width);
             }
         }
 
