@@ -21,8 +21,7 @@ $(document).ready(function() {
         if (width >= 100) {
             width = 1;
         } else {
-            while (width < 100) {
-                console.log(width + 1);
+            while (width < 100) {                
                 width++;
                 bar.css('width', width);
             }
