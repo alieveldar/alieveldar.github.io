@@ -20,13 +20,13 @@ $(document).ready(function() {
         var progress = $("#orderProgress");
         progress.show();
         var width = 1;
-        var id = setInterval(frame, 1);
+        var id = setInterval(frame, 10);
 
         function frame() {
-            if (width >= 10) {
+            if (width >= 101) {
                 clearInterval(id);
             } else {
-                width++;
+                width+=10;
                 bar.css('width', width);
             }
         }
