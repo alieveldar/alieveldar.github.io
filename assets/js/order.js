@@ -19,7 +19,7 @@ $(document).ready(function() {
         var progress = $("#orderProgress");
         progress.show();
         var width = 1;
-        var id = setInterval(frame, 100);
+        var id = setInterval(frame, 1000);
 
         function frame() {
             if (width >= 101) {
