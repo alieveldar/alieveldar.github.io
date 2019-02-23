@@ -18,14 +18,17 @@ $(document).ready(function() {
         alert("OK");
         var bar = $("#orderBar");
         var width = 1;
-        if (width >= 100) {
-            width = 1;
-        } else {
-            while (width < 100) {                
+        var id = setInterval(frame, 100);
+
+        function frame() {
+            if (width >= 100) {
+                clearInterval(id);
+            } else {
                 width++;
                 bar.css('width', width);
             }
         }
+
 
     });
 
