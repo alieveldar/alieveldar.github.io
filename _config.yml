@@ -5,6 +5,6 @@ markdown: kramdown
 highlighter: rouge
 logo: true
 paginate: 8
-baseurl: /
+baseurl: https://privator.club
 plugins: [jekyll-gist]
 permalink: /:year/:month/:title.html
