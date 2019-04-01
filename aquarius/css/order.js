@@ -1,6 +1,6 @@
 $(document).ready(function() {
 var but = $(".t780__btn-wrapper");
-var buttonhref = $(".t780__btn t-btn");
+var buttonhref = $(".traiding");
 var color = $(".t-product__option-select t-descr t-descr_xxs js-product-option-variants").val();
 var tel = $(".tel").val();
 buttonhref.mouseover(function(){
