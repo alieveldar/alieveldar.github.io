@@ -6,4 +6,4 @@ var tel = $(".tel").val();
 but.mouseover(function(){
   buttonhref.attr("href", "https://order.privator.club/aquarius.php?color="+ color +"&tel=" + tel);
 });
-}
+});
