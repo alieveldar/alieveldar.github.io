@@ -1,14 +1,16 @@
+
 <!DOCTYPE html>
-<!-- saved from url=(0029)http://volleybal.kzn.xsph.ru/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Волейбол для всех | Казань</title>
-    <link rel="stylesheet" href="./Волейбол для всех _ Казань_files/style.css">
-    <link rel="stylesheet" href="./Волейбол для всех _ Казань_files/bootstrap.min.css">
-    <link rel="stylesheet" href="./Волейбол для всех _ Казань_files/jquery.formstyler.css">
-    <link rel="stylesheet" href="./Волейбол для всех _ Казань_files/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
 </head>
 
 <body>
@@ -18,13 +20,13 @@
             <nav class="menu">
                 <ul id="myTab" class="nav">
                     <li>
-                        <a data-toggle="tab" href="http://volleybal.kzn.xsph.ru/#panel1" class="active">Тренеровки</a>
+                        <a data-toggle="tab" href="#panel1" class="active">Тренеровки</a>
                     </li>
                     <li>
-                        <a data-toggle="tab" href="http://volleybal.kzn.xsph.ru/#panel2">Новости</a>
+                        <a data-toggle="tab" href="#panel2">Новости</a>
                     </li>
                     <li>
-                        <a data-toggle="tab" href="http://volleybal.kzn.xsph.ru/#panel3">Аренда</a>
+                        <a data-toggle="tab" href="#panel3">Аренда</a>
                     </li>
                 </ul>
             </nav>
@@ -40,33 +42,33 @@
                 <!-- Начало filter -->
                 <div class="filter" id="falvor-nav">
                     <div class="calendar">
-                        <a href="http://volleybal.kzn.xsph.ru/" class="calendar__link"><img src="./Волейбол для всех _ Казань_files/calendar.png" alt=""></a>
+                        <a href="" class="calendar__link"><img src="img/calendar.png" alt=""></a>
                     </div>
                     <div class="filter__item filter--address">
-                        <div class="jq-selectbox jqselect"><select data-placeholder="Адрес зала">
+                        <select data-placeholder="Адрес зала">
                             <option value=""></option>
                             <option value="">Волгоградская, 26</option>
                             <option value="">Юлиуса Фучика, 26</option>
                             <option value="">Горького, 10а</option>
-                        </select><div class="jq-selectbox__select"><div class="jq-selectbox__select-text placeholder" style="width: 125.359px;">Адрес зала</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="display: none;"><ul><li class="selected sel" style="display: none;"></li><li style="">Волгоградская, 26</li><li style="">Юлиуса Фучика, 26</li><li style="">Горького, 10а</li></ul></div></div>
+                        </select>
                     </div>
                     <div class="filter__item filter--trener ui-group">
-                        <div class="jq-selectbox jqselect"><select data-placeholder="Тренер">
+                        <select data-placeholder="Тренер">
                             <option></option>
                             <option>Артем</option>
                             <option>Маруся</option>
                             <option>Василиса</option>
-                        </select><div class="jq-selectbox__select"><div class="jq-selectbox__select-text placeholder" style="width: 106px;">Тренер</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="display: none;"><ul><li class="selected sel" style="display: none;"></li><li style="">Артем</li><li style="">Маруся</li><li style="">Василиса</li></ul></div></div>
+                        </select>
                     </div>
                     <div class="filter__item filter--name">
-                        <div class="jq-selectbox jqselect"><select data-placeholder="Тренеровка">
+                        <select data-placeholder="Тренеровка">
                             <option value=""></option>
                             <option value="">Нападение</option>
                             <option value="">Защита</option>
                             <option value="">Курс: начинающие</option>
                             <option value="">Игровая по курсу для начинающих</option>
                             <option value="">Просто поиграть</option>
-                        </select><div class="jq-selectbox__select"><div class="jq-selectbox__select-text placeholder" style="width: 146px;">Тренеровка</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="display: none;"><ul><li class="selected sel" style="display: none;"></li><li style="">Нападение</li><li style="">Защита</li><li style="">Курс: начинающие</li><li style="">Игровая по курсу для начинающих</li><li style="">Просто поиграть</li></ul></div></div>
+                        </select>
                     </div>
                 </div>
                 <!-- Конец filter -->
@@ -93,7 +95,8 @@
                         <!-- Начало info__list -->
                         <div class="info__list info--active">
                             <div class="info__item info--date">
-                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_1" aria-expanded="true" aria-controls="info_1"></div>
+                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_1"
+                                    aria-expanded="true" aria-controls="info_1"></div>
                                 <p>15/01 — <strong>Вторник</strong></p>
                             </div>
                             <div class="info__item info--status">Завершено</div>
@@ -102,13 +105,15 @@
                         <!-- Конец info__list -->
 
                         <!-- Начало open__list -->
-                        <div id="info_1" class="open__list collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="info_1" class="open__list collapse " aria-labelledby="headingOne"
+                            data-parent="#accordion">
 
                             <!-- Начало open__wrapper -->
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_1-1" aria-expanded="true" aria-controls="open_1-1"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_1-1" aria-expanded="true" aria-controls="open_1-1"></div>
                                         <div class="open__wrap open__map">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -122,7 +127,8 @@
 
                                 <!--Начало details__wrap -->
                                 <div class="details__wrap">
-                                    <div id="open_1-1" class="details collapse" aria-labelledby="headingOne" data-parent="#info_1">
+                                    <div id="open_1-1" class="details collapse" aria-labelledby="headingOne"
+                                        data-parent="#info_1">
                                         <ul>
                                             <li class="details__time">20:00 (2 часа)</li>
                                             <li class="details__name">
@@ -144,7 +150,8 @@
                                                 <button class="details__description--close">Свернуть</button>
                                             </li>
                                         </ul>
-                                        <button data-toggle="collapse" data-target="#open_1-1" aria-expanded="true" aria-controls="open_1-1">Свернуть</button>
+                                        <button data-toggle="collapse" data-target="#open_1-1" aria-expanded="true"
+                                            aria-controls="open_1-1">Свернуть</button>
                                     </div>
                                 </div>
                                 <!-- Конец details__wrap -->
@@ -155,7 +162,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_1-2" aria-expanded="true" aria-controls="open_1-2"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_1-2" aria-expanded="true" aria-controls="open_1-2"></div>
                                         <div class="open__wrap">
                                             <h3>Курс: начинающие</h3>
                                             <p>Ю. Фучика, 26 — 6 гимназия</p>
@@ -167,7 +175,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_1-2" class="details collapse" aria-labelledby="headingOne" data-parent="#info_1">
+                                <div id="open_1-2" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_1">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -188,7 +197,8 @@
                                             <button class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_1-2" aria-expanded="true" aria-controls="open_1-2">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_1-2" aria-expanded="true"
+                                        aria-controls="open_1-2">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -199,7 +209,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_1-3" aria-expanded="true" aria-controls="open_1-3">
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_1-3" aria-expanded="true" aria-controls="open_1-3">
                                         </div>
                                         <div class="open__wrap">
                                             <h3>Игровая</h3>
@@ -212,7 +223,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_1-3" class="details collapse" aria-labelledby="headingOne" data-parent="#info_1">
+                                <div id="open_1-3" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_1">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -233,7 +245,8 @@
                                             <button class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_1-3" aria-expanded="true" aria-controls="open_1-3">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_1-3" aria-expanded="true"
+                                        aria-controls="open_1-3">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -251,7 +264,8 @@
                         <!-- Начало info__list -->
                         <div class="info__list info--active">
                             <div class="info__item info--date">
-                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_2" aria-expanded="true" aria-controls="info_2"></div>
+                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_2"
+                                    aria-expanded="true" aria-controls="info_2"></div>
                                 <p>16/01 — <strong>Среда</strong></p>
                             </div>
                             <div class="info__item info--status">Завершено</div>
@@ -260,13 +274,15 @@
                         <!-- Конец info__list -->
 
                         <!-- Начало open__list -->
-                        <div id="info_2" class="open__list collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="info_2" class="open__list collapse " aria-labelledby="headingOne"
+                            data-parent="#accordion">
 
                             <!-- Начало open__wrapper -->
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_2-1" aria-expanded="true" aria-controls="open_2-1"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_2-1" aria-expanded="true" aria-controls="open_2-1"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -280,7 +296,8 @@
 
                                 <!--Начало details__wrap -->
                                 <div class="details__wrap">
-                                    <div id="open_2-1" class="details collapse" aria-labelledby="headingOne" data-parent="#info_2">
+                                    <div id="open_2-1" class="details collapse" aria-labelledby="headingOne"
+                                        data-parent="#info_2">
                                         <ul>
                                             <li class="details__time">20:00 (2 часа)</li>
                                             <li class="details__name">
@@ -290,17 +307,20 @@
                                             </li>
                                             <li class="details__price">300 <span>руб.</span></li>
                                             <li class="details__photo">
-                                                <p>Фото/Видео</p> <button class="details__photo--close">Свернуть</button>
+                                                <p>Фото/Видео</p> <button
+                                                    class="details__photo--close">Свернуть</button>
                                             </li>
                                             <li class="details__abonement">
                                                 <p>Абонементы</p>
                                                 <button class="details__abonement--close">Свернуть</button>
                                             </li>
                                             <li class="details__description">
-                                                <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                                <p>Описание</p> <button
+                                                    class="details__description--close">Свернуть</button>
                                             </li>
                                         </ul>
-                                        <button data-toggle="collapse" data-target="#open_2-1" aria-expanded="true" aria-controls="open_2-1">Свернуть</button>
+                                        <button data-toggle="collapse" data-target="#open_2-1" aria-expanded="true"
+                                            aria-controls="open_2-1">Свернуть</button>
                                     </div>
                                 </div>
                                 <!-- Конец details__wrap -->
@@ -311,7 +331,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_2-2" aria-expanded="true" aria-controls="open_2-2"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_2-2" aria-expanded="true" aria-controls="open_2-2"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -323,7 +344,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_2-2" class="details collapse" aria-labelledby="headingOne" data-parent="#info_2">
+                                <div id="open_2-2" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_2">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -340,10 +362,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_2-2" aria-expanded="true" aria-controls="open_2-2">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_2-2" aria-expanded="true"
+                                        aria-controls="open_2-2">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -354,7 +378,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_2-3" aria-expanded="true" aria-controls="open_2-3">
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_2-3" aria-expanded="true" aria-controls="open_2-3">
                                         </div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
@@ -367,7 +392,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_2-3" class="details collapse" aria-labelledby="headingOne" data-parent="#info_2">
+                                <div id="open_2-3" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_2">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -384,10 +410,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_2-3" aria-expanded="true" aria-controls="open_2-3">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_2-3" aria-expanded="true"
+                                        aria-controls="open_2-3">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -405,7 +433,8 @@
                         <!-- Начало info__list -->
                         <div class="info__list info--active">
                             <div class="info__item info--date">
-                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_3" aria-expanded="true" aria-controls="info_3"></div>
+                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_3"
+                                    aria-expanded="true" aria-controls="info_3"></div>
                                 <p>17/01 — <strong>Четверг</strong></p>
                             </div>
                             <div class="info__item info--status">Завершено</div>
@@ -414,13 +443,15 @@
                         <!-- Конец info__list -->
 
                         <!-- Начало open__list -->
-                        <div id="info_3" class="open__list collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="info_3" class="open__list collapse " aria-labelledby="headingOne"
+                            data-parent="#accordion">
 
                             <!-- Начало open__wrapper -->
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_3-1" aria-expanded="true" aria-controls="open_3-1"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_3-1" aria-expanded="true" aria-controls="open_3-1"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -434,7 +465,8 @@
 
                                 <!--Начало details__wrap -->
                                 <div class="details__wrap">
-                                    <div id="open_3-1" class="details collapse" aria-labelledby="headingOne" data-parent="#info_3">
+                                    <div id="open_3-1" class="details collapse" aria-labelledby="headingOne"
+                                        data-parent="#info_3">
                                         <ul>
                                             <li class="details__time">20:00 (2 часа)</li>
                                             <li class="details__name">
@@ -444,17 +476,20 @@
                                             </li>
                                             <li class="details__price">300 <span>руб.</span></li>
                                             <li class="details__photo">
-                                                <p>Фото/Видео</p> <button class="details__photo--close">Свернуть</button>
+                                                <p>Фото/Видео</p> <button
+                                                    class="details__photo--close">Свернуть</button>
                                             </li>
                                             <li class="details__abonement">
                                                 <p>Абонементы</p>
                                                 <button class="details__abonement--close">Свернуть</button>
                                             </li>
                                             <li class="details__description">
-                                                <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                                <p>Описание</p> <button
+                                                    class="details__description--close">Свернуть</button>
                                             </li>
                                         </ul>
-                                        <button data-toggle="collapse" data-target="#open_3-1" aria-expanded="true" aria-controls="open_3-1">Свернуть</button>
+                                        <button data-toggle="collapse" data-target="#open_3-1" aria-expanded="true"
+                                            aria-controls="open_3-1">Свернуть</button>
                                     </div>
                                 </div>
                                 <!-- Конец details__wrap -->
@@ -465,7 +500,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_3-2" aria-expanded="true" aria-controls="open_3-2"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_3-2" aria-expanded="true" aria-controls="open_3-2"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -477,7 +513,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_3-2" class="details collapse" aria-labelledby="headingOne" data-parent="#info_3">
+                                <div id="open_3-2" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_3">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -494,10 +531,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_3-2" aria-expanded="true" aria-controls="open_3-2">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_3-2" aria-expanded="true"
+                                        aria-controls="open_3-2">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -508,7 +547,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_3-3" aria-expanded="true" aria-controls="open_3-3">
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_3-3" aria-expanded="true" aria-controls="open_3-3">
                                         </div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
@@ -521,7 +561,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_3-3" class="details collapse" aria-labelledby="headingOne" data-parent="#info_3">
+                                <div id="open_3-3" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_3">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -538,10 +579,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_3-3" aria-expanded="true" aria-controls="open_3-3">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_3-3" aria-expanded="true"
+                                        aria-controls="open_3-3">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -559,7 +602,8 @@
                         <!-- Начало info__list -->
                         <div class="info__list info--active">
                             <div class="info__item info--date">
-                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_4" aria-expanded="true" aria-controls="info_4"></div>
+                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_4"
+                                    aria-expanded="true" aria-controls="info_4"></div>
                                 <p>18/01 — <strong>Пятница</strong></p>
                             </div>
                             <div class="info__item info--status">Завершено</div>
@@ -568,13 +612,15 @@
                         <!-- Конец info__list -->
 
                         <!-- Начало open__list -->
-                        <div id="info_4" class="open__list collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="info_4" class="open__list collapse " aria-labelledby="headingOne"
+                            data-parent="#accordion">
 
                             <!-- Начало open__wrapper -->
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_4-1" aria-expanded="true" aria-controls="open_4-1"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_4-1" aria-expanded="true" aria-controls="open_4-1"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -588,7 +634,8 @@
 
                                 <!--Начало details__wrap -->
                                 <div class="details__wrap">
-                                    <div id="open_4-1" class="details collapse" aria-labelledby="headingOne" data-parent="#info_4">
+                                    <div id="open_4-1" class="details collapse" aria-labelledby="headingOne"
+                                        data-parent="#info_4">
                                         <ul>
                                             <li class="details__time">20:00 (2 часа)</li>
                                             <li class="details__name">
@@ -598,17 +645,20 @@
                                             </li>
                                             <li class="details__price">300 <span>руб.</span></li>
                                             <li class="details__photo">
-                                                <p>Фото/Видео</p> <button class="details__photo--close">Свернуть</button>
+                                                <p>Фото/Видео</p> <button
+                                                    class="details__photo--close">Свернуть</button>
                                             </li>
                                             <li class="details__abonement">
                                                 <p>Абонементы</p>
                                                 <button class="details__abonement--close">Свернуть</button>
                                             </li>
                                             <li class="details__description">
-                                                <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                                <p>Описание</p> <button
+                                                    class="details__description--close">Свернуть</button>
                                             </li>
                                         </ul>
-                                        <button data-toggle="collapse" data-target="#open_4-1" aria-expanded="true" aria-controls="open_4-1">Свернуть</button>
+                                        <button data-toggle="collapse" data-target="#open_4-1" aria-expanded="true"
+                                            aria-controls="open_4-1">Свернуть</button>
                                     </div>
                                 </div>
                                 <!-- Конец details__wrap -->
@@ -619,7 +669,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_4-2" aria-expanded="true" aria-controls="open_4-2"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_4-2" aria-expanded="true" aria-controls="open_4-2"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -631,7 +682,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_4-2" class="details collapse" aria-labelledby="headingOne" data-parent="#info_4">
+                                <div id="open_4-2" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_4">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -648,10 +700,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_4-2" aria-expanded="true" aria-controls="open_4-2">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_4-2" aria-expanded="true"
+                                        aria-controls="open_4-2">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -662,7 +716,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_4-3" aria-expanded="true" aria-controls="open_4-3">
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_4-3" aria-expanded="true" aria-controls="open_4-3">
                                         </div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
@@ -675,7 +730,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_4-3" class="details collapse" aria-labelledby="headingOne" data-parent="#info_4">
+                                <div id="open_4-3" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_4">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -692,10 +748,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_4-3" aria-expanded="true" aria-controls="open_4-3">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_4-3" aria-expanded="true"
+                                        aria-controls="open_4-3">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -713,7 +771,8 @@
                         <!-- Начало info__list -->
                         <div class="info__list info--active">
                             <div class="info__item info--date">
-                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_5" aria-expanded="true" aria-controls="info_5"></div>
+                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_5"
+                                    aria-expanded="true" aria-controls="info_5"></div>
                                 <p>19/01 — <strong>Суббота</strong></p>
                             </div>
                             <div class="info__item info--status">Завершено</div>
@@ -722,13 +781,15 @@
                         <!-- Конец info__list -->
 
                         <!-- Начало open__list -->
-                        <div id="info_5" class="open__list collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="info_5" class="open__list collapse " aria-labelledby="headingOne"
+                            data-parent="#accordion">
 
                             <!-- Начало open__wrapper -->
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_5-1" aria-expanded="true" aria-controls="open_5-1"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_5-1" aria-expanded="true" aria-controls="open_5-1"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -742,7 +803,8 @@
 
                                 <!--Начало details__wrap -->
                                 <div class="details__wrap">
-                                    <div id="open_5-1" class="details collapse" aria-labelledby="headingOne" data-parent="#info_5">
+                                    <div id="open_5-1" class="details collapse" aria-labelledby="headingOne"
+                                        data-parent="#info_5">
                                         <ul>
                                             <li class="details__time">20:00 (2 часа)</li>
                                             <li class="details__name">
@@ -752,17 +814,20 @@
                                             </li>
                                             <li class="details__price">300 <span>руб.</span></li>
                                             <li class="details__photo">
-                                                <p>Фото/Видео</p> <button class="details__photo--close">Свернуть</button>
+                                                <p>Фото/Видео</p> <button
+                                                    class="details__photo--close">Свернуть</button>
                                             </li>
                                             <li class="details__abonement">
                                                 <p>Абонементы</p>
                                                 <button class="details__abonement--close">Свернуть</button>
                                             </li>
                                             <li class="details__description">
-                                                <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                                <p>Описание</p> <button
+                                                    class="details__description--close">Свернуть</button>
                                             </li>
                                         </ul>
-                                        <button data-toggle="collapse" data-target="#open_5-1" aria-expanded="true" aria-controls="open_5-1">Свернуть</button>
+                                        <button data-toggle="collapse" data-target="#open_5-1" aria-expanded="true"
+                                            aria-controls="open_5-1">Свернуть</button>
                                     </div>
                                 </div>
                                 <!-- Конец details__wrap -->
@@ -773,7 +838,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_5-2" aria-expanded="true" aria-controls="open_5-2"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_5-2" aria-expanded="true" aria-controls="open_5-2"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -785,7 +851,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_5-2" class="details collapse" aria-labelledby="headingOne" data-parent="#info_5">
+                                <div id="open_5-2" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_5">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -802,10 +869,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_5-2" aria-expanded="true" aria-controls="open_5-2">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_5-2" aria-expanded="true"
+                                        aria-controls="open_5-2">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -816,7 +885,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#open_5-3" aria-expanded="true" aria-controls="open_5-3">
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#open_5-3" aria-expanded="true" aria-controls="open_5-3">
                                         </div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
@@ -829,7 +899,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="open_5-3" class="details collapse" aria-labelledby="headingOne" data-parent="#info_5">
+                                <div id="open_5-3" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_5">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -846,10 +917,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#open_5-3" aria-expanded="true" aria-controls="open_5-3">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#open_5-3" aria-expanded="true"
+                                        aria-controls="open_5-3">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -867,7 +940,8 @@
                         <!-- Начало info__list -->
                         <div class="info__list info--active">
                             <div class="info__item info--date">
-                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_6" aria-expanded="true" aria-controls="info_6"></div>
+                                <div class="info__button closed collapsed" data-toggle="collapse" data-target="#info_6"
+                                    aria-expanded="true" aria-controls="info_6"></div>
                                 <p>20/01 — <strong>Воскресенье</strong></p>
                             </div>
                             <div class="info__item info--status">Завершено</div>
@@ -876,13 +950,15 @@
                         <!-- Конец info__list -->
 
                         <!-- Начало open__list -->
-                        <div id="info_6" class="open__list collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="info_6" class="open__list collapse " aria-labelledby="headingOne"
+                            data-parent="#accordion">
 
                             <!-- Начало open__wrapper -->
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#info_6-1" aria-expanded="true" aria-controls="info_6-1"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#info_6-1" aria-expanded="true" aria-controls="info_6-1"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -896,7 +972,8 @@
 
                                 <!--Начало details__wrap -->
                                 <div class="details__wrap">
-                                    <div id="info_6-1" class="details collapse" aria-labelledby="headingOne" data-parent="#info_6">
+                                    <div id="info_6-1" class="details collapse" aria-labelledby="headingOne"
+                                        data-parent="#info_6">
                                         <ul>
                                             <li class="details__time">20:00 (2 часа)</li>
                                             <li class="details__name">
@@ -906,17 +983,20 @@
                                             </li>
                                             <li class="details__price">300 <span>руб.</span></li>
                                             <li class="details__photo">
-                                                <p>Фото/Видео</p> <button class="details__photo--close">Свернуть</button>
+                                                <p>Фото/Видео</p> <button
+                                                    class="details__photo--close">Свернуть</button>
                                             </li>
                                             <li class="details__abonement">
                                                 <p>Абонементы</p>
                                                 <button class="details__abonement--close">Свернуть</button>
                                             </li>
                                             <li class="details__description">
-                                                <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                                <p>Описание</p> <button
+                                                    class="details__description--close">Свернуть</button>
                                             </li>
                                         </ul>
-                                        <button data-toggle="collapse" data-target="#info_6-1" aria-expanded="true" aria-controls="info_6-1">Свернуть</button>
+                                        <button data-toggle="collapse" data-target="#info_6-1" aria-expanded="true"
+                                            aria-controls="info_6-1">Свернуть</button>
                                     </div>
                                 </div>
                                 <!-- Конец details__wrap -->
@@ -927,7 +1007,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#info_6-2" aria-expanded="true" aria-controls="info_6-2"></div>
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#info_6-2" aria-expanded="true" aria-controls="info_6-2"></div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
                                             <p>Волгоградская, 26 — 91 школа</p>
@@ -939,7 +1020,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="info_6-2" class="details collapse" aria-labelledby="headingOne" data-parent="#info_6">
+                                <div id="info_6-2" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_6">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -956,10 +1038,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#info_6-2" aria-expanded="true" aria-controls="info_6-2">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#info_6-2" aria-expanded="true"
+                                        aria-controls="info_6-2">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -970,7 +1054,8 @@
                             <div class="open__wrapper">
                                 <div class="open__item">
                                     <div class="open__name">
-                                        <div class="open__button collapsed" data-toggle="collapse" data-target="#info_6-3" aria-expanded="true" aria-controls="info_6-3">
+                                        <div class="open__button collapsed" data-toggle="collapse"
+                                            data-target="#info_6-3" aria-expanded="true" aria-controls="info_6-3">
                                         </div>
                                         <div class="open__wrap">
                                             <h3>Нападающий удар</h3>
@@ -983,7 +1068,8 @@
                                     </div>
                                 </div>
                                 <!--Начало details -->
-                                <div id="info_6-3" class="details collapse" aria-labelledby="headingOne" data-parent="#info_6">
+                                <div id="info_6-3" class="details collapse" aria-labelledby="headingOne"
+                                    data-parent="#info_6">
                                     <ul>
                                         <li class="details__time">20:00 (2 часа)</li>
                                         <li class="details__name">
@@ -1000,10 +1086,12 @@
                                             <button class="details__abonement--close">Свернуть</button>
                                         </li>
                                         <li class="details__description">
-                                            <p>Описание</p> <button class="details__description--close">Свернуть</button>
+                                            <p>Описание</p> <button
+                                                class="details__description--close">Свернуть</button>
                                         </li>
                                     </ul>
-                                    <button data-toggle="collapse" data-target="#info_6-3" aria-expanded="true" aria-controls="info_6-3">Свернуть</button>
+                                    <button data-toggle="collapse" data-target="#info_6-3" aria-expanded="true"
+                                        aria-controls="info_6-3">Свернуть</button>
                                 </div>
                                 <!-- Конец details -->
 
@@ -1030,10 +1118,10 @@
     </div>
     <!-- Конец contain -->
 
-    <script src="./Волейбол для всех _ Казань_files/jquery-3.3.1.min.js.Без названия"></script>
-    <script src="./Волейбол для всех _ Казань_files/bootstrap.min.js.Без названия"></script>
-    <script src="./Волейбол для всех _ Казань_files/jquery.formstyler.min.js.Без названия"></script>
-    <script src="./Волейбол для всех _ Казань_files/isotope.pkgd.min.js.Без названия"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
     <script>
         (function ($) {
             $(function () {
@@ -1120,6 +1208,6 @@
         });
     </script>
 
+</body>
 
-
-</body></html>
+</html>
