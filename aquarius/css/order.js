@@ -7,7 +7,7 @@ var tel = $(".tel").val();
   buttonhref.attr("href", "https://order.privator.club/aquarius.php?color="+ color +"&tel=" + tel);
 });
 var hlaw =$(".law152");
-vat tlaw=$(".law152text");
+var tlaw=$(".law152text");
 hlaw.on("click", function(){
 	tlaw.show();
 }); 
