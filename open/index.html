@@ -1,0 +1,160 @@
+
+<html id="root" class="wf-opensans-n4-active wf-opensans-n6-active wf-active">
+<head>
+	<script id="rhlpscrtg" type="text/javascript" charset="utf-8" async="async" src="https://web.redhelper.ru/service/main.js?c=alieveldarprog"></script>
+	<link href="http://allfont.ru/allfont.css?fonts=digital-7-mono" rel="stylesheet" type="text/css" />
+	<div style="display: none"><a class="rc-copyright" href="http://redconnect.ru">Сервис звонка с сайта RedConnect</a></div>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+</head>
+
+<body class="tmpl_body rh-copy-show redhlp_offline redhlp_ready">
+</body>
+
+
+<pre id="init"></pre>
+
+<script type="text/javascript">
+	function writeTextByJS(id, text, speed){
+
+	var ele = document.getElementById(id),
+	    txt = text.join("").split("");
+
+	var interval = setInterval(function(){
+
+		if(!txt[0]){
+
+			return clearInterval(interval);
+		};
+
+		ele.innerHTML += txt.shift();
+	}, speed != undefined ? speed : 0.01);
+
+	return false;
+};
+writeTextByJS(
+	"init",
+	[
+		"Загрузка . . .\n",
+		"> Инициализация . . .\n",
+		". . . \n",
+		"Успешно!"
+	]
+);
+</script>
+
+<style type="text/css">
+
+body {
+	font-size: 24px !important;
+	background: url(/fon3.png) !important;
+	background-size: cover !important;
+}
+#init {
+color: white;
+font-size: 24px;
+}
+#rc-phone {
+	position: relative !important;
+	left: 400px !important;
+}
+#rc-popup {
+
+	height: 100% !important;
+	top: 0 !important;
+	display: block !important;
+	background: url(/fon3.png) !important;
+	background-size: cover !important;
+	transition: 3s;
+}
+#rc-phone-highlight, #rc-phone-back, #rc-popup-close, #rc-popup-text {
+	display: none ! important;
+}
+#rc-popup-form-button {
+	background: url(/btn.png) !important;
+	background-size: 60% 60% !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	width: 100% !important;
+	padding: 20px 0;
+	height: 220px;
+	color: rgba(0,0,0,0);
+	border-radius: 0;
+	border: 0px solid black !important;
+	box-shadow: none !important;
+	margin-left: 40px;
+}
+#rc-popup-form {
+	padding: 20 px;
+	background: url(/102.png) !important;
+	background-size: 100% 100% !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	top: 20%;
+}
+
+#rc-phone-field {
+	width: 100% !important;
+}
+#rc-popup-connector-frame, #rc-phone-input {
+	width: 100% !important;
+}
+#rc-popup-connector-frame {
+	margin-top: 80px;
+	width: 100% !important;
+	border-radius: 0;
+	border: 0px solid black !important;
+	box-shadow: none !important;
+	z-index: 9999;
+	font-size: 16px !important;
+
+}
+._27 {
+	font-size: 24px !important;
+}
+#rc-phone-dial-close {
+	width: 140px !important;
+	height: 140px !important;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	background: red;
+	border-radius: 150px;
+}
+
+#rc-phone-dial-timer .rc-txt {
+	color: red !important;
+	letter-spacing: 0.2em;
+	/*background: black !important;*/
+	font-family: 'Digital-7 Mono', arial;
+}
+#rc-phone-dial-timer {
+	/*background: black !important;*/
+	width: 150 !important;
+	border: 1px solid #5d5d5d;
+	text-align: center;
+	left: -25px;
+	font-family: 'Digital-7 Mono', arial;
+	font-size: 18px;
+}
+#rc-phone-dial-descr .rc-txt {
+	color: rgba(0,0,0,0) !important;
+}
+#rc-phone-dial-cnt, 
+#rc-phone-dial-half-circle, 
+#rc-phone-dial-circle, 
+#rc-phone-dial-half-circle2, 
+#rc-phone-dial-circle2 {
+	background: rgba(0,0,0,0) !important;
+}
+#rc-phone-dial-ok, #rc-phone-dial-ok-curtain {
+	background: rgba(0,0,0,0) !important;
+}
+#rc-phone-dial-fail {
+	background: rgba(0,0,0,0) !important;
+}
+#rc-phone-dial {
+	left: 0px !important;
+}
+</style>
+</html>
