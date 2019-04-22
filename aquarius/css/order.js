@@ -11,4 +11,5 @@ var tlaw=$(".law152text");
 hlaw.on("click", function(){
 	tlaw.show();
 }); 
+$(".t509").hover(function(){$(".orderbat").show('slow');$(".fixedbut").hide();});
 });
