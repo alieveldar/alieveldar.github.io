@@ -968,10 +968,14 @@ li {
     .skills{
         display: none;
     }
-    .pull-left{
+  /*  .pull-left{
+        display: none;
+    }*/
+    .download-button{
         display: none;
     }
-    .download-button{
+
+    .main-nav{
         display: none;
     }
 }
